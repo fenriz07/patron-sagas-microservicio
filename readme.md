@@ -1,4 +1,4 @@
-https://microservices.io/patterns/data/saga.html
+
 
 ## Contexto
 
@@ -54,3 +54,7 @@ También hay que abordar los siguientes problemas:
 
      Para ser confiable, un servicio debe actualizar atómicamente su base de datos y publicar un mensaje / evento. No puede usar el mecanismo tradicional de una transacción distribuida que abarca la base de datos y el intermediario de mensajes. En su lugar, debe usar uno de los patrones enumerados a continuación.
 
+##Referencias:
+
+Patrón Sagas Youtube Video: Tomas Lingotti https://www.youtube.com/watch?v=7IA2NzXE-68&feature=youtu.be&fbclid=IwAR2V5A0525jMPdXXYWplDC7WM9xITHqIguR7UYvt4SU7CvheQxQsCsMI4YA
+Url: https://microservices.io/patterns/data/saga.html
