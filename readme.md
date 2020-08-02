@@ -1,10 +1,10 @@
 https://microservices.io/patterns/data/saga.html
 
-##Contexto
+## Contexto
 
 Ha aplicado la base de datos por patrón de servicio. Cada servicio tiene su propia base de datos. Sin embargo, algunas transacciones comerciales abarcan varios servicios, por lo que necesita un mecanismo para implementar transacciones que abarquen servicios. Por ejemplo, imaginemos que está construyendo una tienda de comercio electrónico donde los clientes tienen un límite de crédito. La aplicación debe garantizar que un nuevo pedido no supere el límite de crédito del cliente. Dado que los pedidos y los clientes se encuentran en diferentes bases de datos propiedad de diferentes servicios, la aplicación no puede simplemente usar una transacción ACID local.
 
-##Problema
+## Problema
 
 ¿Cómo implementar transacciones que abarcan servicios?
 
